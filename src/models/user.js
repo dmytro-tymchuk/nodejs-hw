@@ -23,3 +23,4 @@ userSchema.methods.toJSON = function () {
 };
 
 export const User = mongoose.model('User', userSchema);
+console.log();
